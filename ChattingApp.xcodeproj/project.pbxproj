@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF7215CA1CEA75F90097D339 /* ChatLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7215C91CEA75F90097D339 /* ChatLogController.swift */; };
+		AF7215CC1CEA80E90097D339 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7215CB1CEA80E90097D339 /* CustomTabBarController.swift */; };
 		AF8EE65E1CE9C95E001B3E19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8EE65D1CE9C95E001B3E19 /* AppDelegate.swift */; };
-		AF8EE6601CE9C95E001B3E19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8EE65F1CE9C95E001B3E19 /* ViewController.swift */; };
-		AF8EE6631CE9C95E001B3E19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF8EE6611CE9C95E001B3E19 /* Main.storyboard */; };
+		AF8EE6601CE9C95E001B3E19 /* FriendsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8EE65F1CE9C95E001B3E19 /* FriendsController.swift */; };
 		AF8EE6651CE9C95E001B3E19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF8EE6641CE9C95E001B3E19 /* Assets.xcassets */; };
 		AF8EE6681CE9C95E001B3E19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF8EE6661CE9C95E001B3E19 /* LaunchScreen.storyboard */; };
+		AFA269751CEA4BA9008916A9 /* FriendsControllerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA269741CEA4BA9008916A9 /* FriendsControllerHelper.swift */; };
+		AFA269781CEA4DB4008916A9 /* FriendsModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AFA269761CEA4DB4008916A9 /* FriendsModel.xcdatamodeld */; };
+		AFA2697D1CEA4E5A008916A9 /* Friend+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA269791CEA4E5A008916A9 /* Friend+CoreDataProperties.swift */; };
+		AFA2697E1CEA4E5A008916A9 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA2697A1CEA4E5A008916A9 /* Friend.swift */; };
+		AFA2697F1CEA4E5A008916A9 /* Message+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA2697B1CEA4E5A008916A9 /* Message+CoreDataProperties.swift */; };
+		AFA269801CEA4E5A008916A9 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA2697C1CEA4E5A008916A9 /* Message.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF7215C91CEA75F90097D339 /* ChatLogController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatLogController.swift; sourceTree = "<group>"; };
+		AF7215CB1CEA80E90097D339 /* CustomTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
 		AF8EE65A1CE9C95E001B3E19 /* ChattingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChattingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF8EE65D1CE9C95E001B3E19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AF8EE65F1CE9C95E001B3E19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AF8EE6621CE9C95E001B3E19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF8EE65F1CE9C95E001B3E19 /* FriendsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsController.swift; sourceTree = "<group>"; };
 		AF8EE6641CE9C95E001B3E19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF8EE6671CE9C95E001B3E19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF8EE6691CE9C95E001B3E19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFA269741CEA4BA9008916A9 /* FriendsControllerHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsControllerHelper.swift; sourceTree = "<group>"; };
+		AFA269771CEA4DB4008916A9 /* FriendsModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FriendsModel.xcdatamodel; sourceTree = "<group>"; };
+		AFA269791CEA4E5A008916A9 /* Friend+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Friend+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		AFA2697A1CEA4E5A008916A9 /* Friend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		AFA2697B1CEA4E5A008916A9 /* Message+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Message+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		AFA2697C1CEA4E5A008916A9 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +68,16 @@
 		AF8EE65C1CE9C95E001B3E19 /* ChattingApp */ = {
 			isa = PBXGroup;
 			children = (
+				AFA269761CEA4DB4008916A9 /* FriendsModel.xcdatamodeld */,
 				AF8EE65D1CE9C95E001B3E19 /* AppDelegate.swift */,
-				AF8EE65F1CE9C95E001B3E19 /* ViewController.swift */,
-				AF8EE6611CE9C95E001B3E19 /* Main.storyboard */,
+				AF7215CB1CEA80E90097D339 /* CustomTabBarController.swift */,
+				AFA269791CEA4E5A008916A9 /* Friend+CoreDataProperties.swift */,
+				AFA2697A1CEA4E5A008916A9 /* Friend.swift */,
+				AFA2697B1CEA4E5A008916A9 /* Message+CoreDataProperties.swift */,
+				AFA2697C1CEA4E5A008916A9 /* Message.swift */,
+				AF8EE65F1CE9C95E001B3E19 /* FriendsController.swift */,
+				AFA269741CEA4BA9008916A9 /* FriendsControllerHelper.swift */,
+				AF7215C91CEA75F90097D339 /* ChatLogController.swift */,
 				AF8EE6641CE9C95E001B3E19 /* Assets.xcassets */,
 				AF8EE6661CE9C95E001B3E19 /* LaunchScreen.storyboard */,
 				AF8EE6691CE9C95E001B3E19 /* Info.plist */,
@@ -124,7 +145,6 @@
 			files = (
 				AF8EE6681CE9C95E001B3E19 /* LaunchScreen.storyboard in Resources */,
 				AF8EE6651CE9C95E001B3E19 /* Assets.xcassets in Resources */,
-				AF8EE6631CE9C95E001B3E19 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +155,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF8EE6601CE9C95E001B3E19 /* ViewController.swift in Sources */,
+				AF7215CA1CEA75F90097D339 /* ChatLogController.swift in Sources */,
+				AF8EE6601CE9C95E001B3E19 /* FriendsController.swift in Sources */,
+				AF7215CC1CEA80E90097D339 /* CustomTabBarController.swift in Sources */,
+				AFA269781CEA4DB4008916A9 /* FriendsModel.xcdatamodeld in Sources */,
+				AFA2697D1CEA4E5A008916A9 /* Friend+CoreDataProperties.swift in Sources */,
+				AFA2697E1CEA4E5A008916A9 /* Friend.swift in Sources */,
+				AFA2697F1CEA4E5A008916A9 /* Message+CoreDataProperties.swift in Sources */,
+				AFA269801CEA4E5A008916A9 /* Message.swift in Sources */,
 				AF8EE65E1CE9C95E001B3E19 /* AppDelegate.swift in Sources */,
+				AFA269751CEA4BA9008916A9 /* FriendsControllerHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AF8EE6611CE9C95E001B3E19 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AF8EE6621CE9C95E001B3E19 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AF8EE6661CE9C95E001B3E19 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -288,8 +308,22 @@
 				AF8EE66E1CE9C95E001B3E19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AFA269761CEA4DB4008916A9 /* FriendsModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AFA269771CEA4DB4008916A9 /* FriendsModel.xcdatamodel */,
+			);
+			currentVersion = AFA269771CEA4DB4008916A9 /* FriendsModel.xcdatamodel */;
+			path = FriendsModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = AF8EE6521CE9C95E001B3E19 /* Project object */;
 }
